@@ -1,0 +1,15 @@
+{application, language_comparison_server_erlang, [
+	{description, ""},
+	{vsn, "0.1.0"},
+	{id, "git"},
+	{modules, []},
+	{registered, []},
+	{applications, [
+		kernel,
+		stdlib,
+        cowboy,
+        jsx
+	]},
+	{mod, {language_comparison_server_erlang_app, []}},
+	{env, []}
+]}.
